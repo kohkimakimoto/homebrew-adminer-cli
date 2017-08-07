@@ -7,7 +7,7 @@ class AdminerCli < Formula
 
   def install
     prefix.install Dir["*"]
-    bin.install_symlink "bin/adminer"
+    bin.install_symlink "adminer"
   end
 
   test do

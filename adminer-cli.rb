@@ -1,9 +1,9 @@
 class AdminerCli < Formula
   desc "Command line interface to run adminer on the PHP built-in server."
   homepage "https://github.com/kohkimakimoto/adminer-cli"
-  version '0.5.0'
-  url "https://github.com/kohkimakimoto/adminer-cli/archive/v0.5.0.tar.gz"
-  sha256 "9ba6652073005f3d8f54c0b069b6b9786cae9975f5e62f06e62e00c4c8d12077"
+  version '0.6.0'
+  url "https://github.com/kohkimakimoto/adminer-cli/archive/v0.6.0.tar.gz"
+  sha256 "898e94479748e9c4003e9208ee31fa504ff93ca9f9af842124bf9f865112a336"
 
   def install
     bin.install ['bin/adminer', 'src']

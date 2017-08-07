@@ -6,7 +6,7 @@ class AdminerCli < Formula
   sha256 "9ba6652073005f3d8f54c0b069b6b9786cae9975f5e62f06e62e00c4c8d12077"
 
   def install
-    bin.install 'bin/adminer'
+    bin.install ['bin/adminer', 'src']
   end
 
   test do
